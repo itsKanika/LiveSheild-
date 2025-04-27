@@ -1,0 +1,23 @@
+SafeHer is a web application designed to help ensure women's safety and even its for everyone in real-time. It uses live video streaming and AI-powered detection to identify violence or abuse, such as slapping, kicking, or verbal abuse. Upon detection, the app triggers an alert, emits a warning sound, and can send real-time notifications.
+Features
+Real-Time Violence Detection: Detects physical actions like slapping, kicking, and abusive behavior using AI models.
+Live Streaming: Stream the live feed from the webcam for monitoring the situation in real-time.
+Technologies Used
+TensorFlow.js: For real-time violence detection using pre-trained models.
+
+OpenCV: For processing video frames and detecting physical actions.
+
+WebRTC: For real-time video streaming.
+
+FastAPI: To handle requests and serve the application backend.
+
+JavaScript/HTML/CSS: For the frontend user interface.
+
+
+Streamlit: To display real-time alerts and logs.
+Usage
+Open the application in your web browser.
+
+Grant the app permission to access your webcam.
+
+The app will start streaming the live video and begin detecting any violent actions.
