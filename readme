@@ -1,23 +1,91 @@
-SafeHer is a web application designed to help ensure women's safety and even its for everyone in real-time. It uses live video streaming and AI-powered detection to identify violence or abuse, such as slapping, kicking, or verbal abuse. Upon detection, the app triggers an alert, emits a warning sound, and can send real-time notifications.
-Features
-Real-Time Violence Detection: Detects physical actions like slapping, kicking, and abusive behavior using AI models.
-Live Streaming: Stream the live feed from the webcam for monitoring the situation in real-time.
-Technologies Used
-TensorFlow.js: For real-time violence detection using pre-trained models.
+🚀 Project Title
+LiveShield: AI-Powered Emergency Response & Real-Time Alert System
 
-OpenCV: For processing video frames and detecting physical actions.
+📌 Problem Statement
+Public spaces often lack real-time safety solutions. Traditional CCTV fails to provide instant alerts or intervention, putting women at greater risk during emergencies when immediate support is critical.
 
-WebRTC: For real-time video streaming.
+🎯 Objective
+The objective of LiveShield is to build a web-based emergency reporting system that leverages AI to provide immediate response suggestions and notifies emergency contacts via email in real-time.
 
-FastAPI: To handle requests and serve the application backend.
+🧠 Team & Approach
+Team Name:
+ERROR.com
 
-JavaScript/HTML/CSS: For the frontend user interface.
+Team Members:
+Kanika Gupta ([GitHub](https://github.com/itsKanika) / [LinkedIn](https://www.linkedin.com/in/kanika-gupta-) / Feature Integration & Logic Developer)
+Adarsh Kumar Sharma ([GitHub](https://github.com/Adarsh-Vishw) / [LinkedIn](https://www.linkedin.com/in/adarsh-sharma-/) / Backend Developer / Alert System)
+Divyansh Bansal ([GitHub](https://github.com/divy-0508) / [LinkedIn](https://www.linkedin.com/in/divyansh-bansal-) / Lead Frontend Developer)
 
+Your Approach :
+1. Automated Alert System via Email
+Used NodeMailer to send real-time alert emails (including user message + AI response) to a user-defined emergency contact — ensuring actionable communication.
 
-Streamlit: To display real-time alerts and logs.
-Usage
-Open the application in your web browser.
+2. Modern Web Tech for Fast & Responsive UI
+Built the frontend using Next.js 14 with TailwindCSS, ensuring a clean, responsive interface that works seamlessly across devices for fast user input during emergencies.
 
-Grant the app permission to access your webcam.
+🛠️ Tech Stack:
+- Next.js 14 (App Router)
+- NodeMailer (Email Alerts)
+- Vercel (Deployment)
 
-The app will start streaming the live video and begin detecting any violent actions.
+✨ Key Features :
+- 🚀 **Instant Emergency Reporting**  
+- 🧠 **Groq AI Integration** for Smart Responses  
+- ✉️ **Email Alert System** (to user-defined email)
+- 🎯 **Responsive UI** (Next.js 14)
+
+🧪 How to Run the Project:
+1. Clone the repository
+```bash
+git clone https://github.com/divy-0508/live-shield.git
+cd live-shield
+
+2. Install dependencies
+```bash
+npm install
+
+3. Setup Environment Variables (Create a .env.local file in root):
+```env
+ALERT_EMAIL=your_email@gmail.com
+ALERT_EMAIL_PASSWORD=your_app_generated_password_here
+
+4. Start the Development Server
+```bash
+npm run dev
+Visit ➔ http://localhost:3000/new-page
+
+🧬 Future Scope:
+Integrate Location-Based Emergency Services
+Use geolocation APIs to auto-detect user location and route alerts to nearest authorities or regional contacts.
+
+Add Multi-Channel Alerting
+Expand alerts beyond email to include SMS (Twilio), WhatsApp, or push notifications — making the system more versatile and accessible.
+
+Role-Based Dashboard for Admins
+Implement a backend where rescue operators or admins can monitor incoming reports in real-time and track incident data visually.
+
+📎 Resources / Credits:
+
+Next.js — React framework for building fast, scalable web applications
+NodeMailer — Module for sending real-time email alerts
+Vercel — Seamless deployment platform for frontend applications
+
+🏁 Final Words:
+
+Participating in this hackathon was a thrilling sprint of creativity, collaboration, and late-night debugging. Building **LiveShield** in under 48 hours pushed us to explore rapid development, real-time communication systems, and clean UI design — all with a strong focus on user safety.
+
+### 🔧 Challenges We Faced:
+- Ensuring real-time alert delivery through email notifications  
+- Managing secure environment variables and user input handling  
+- Fixing build & deployment issues 
+
+### 📚 What We Learned:
+- Hands-on experience with **Next.js**
+- Implementing and configuring **NodeMailer** for alert emails  
+- Optimizing the UX for fast emergency reporting on all devices  
+
+### 🤝 Shout-outs:
+- Huge thanks to mentors, peers, and the hackathon organizers!  
+- Special thanks to the open-source community for tools like TailwindCSS, Next.js, and NodeMailer  
+
+> **LiveShield** is just the beginning. We're excited to keep building, scaling, and contributing to safer digital spaces.
